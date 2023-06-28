@@ -4,8 +4,7 @@ def inp(x):
     if not x:
         print("End of List")
     else:
-        print(x[0])
-        x.pop(0)
+        print(x.pop(0))        
         inp(x)
     
 
